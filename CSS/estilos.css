@@ -1,0 +1,111 @@
+
+.bg-gray{
+    background-color: rgb(236, 236, 236);
+}
+
+.bg-blue {
+    background-color: rgb(5, 36, 62);
+}
+
+.bg-azulino{
+    background-color: rgb(70, 134, 179);
+}
+
+.bg-mandarina{
+    background-color: #df520b;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-custom {
+    background-color: #df520b;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s;
+   
+}
+
+.btn-custom:hover {
+    background-color: #230a02;
+}
+
+
+.precio{
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.banner{
+    background-image: url(../Imagenes/banners/top-care-items.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+
+.banner-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.productos img{
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.productos img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(212, 56, 13);
+}
+
+.footer-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+.image-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top{
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.image-container:hover .card-img-top{
+    opacity: 0;
+}
+
+.image-container:hover .hover-img{
+    opacity: 1;
+}
+
+
